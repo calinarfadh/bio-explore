@@ -1,0 +1,818 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.header {
+  background-color: whitesmoke;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.hewan {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #f4f4f9 50%, #dff1ff 100%);
+}
+
+.hewan-text {
+  flex: 1;
+}
+
+.hewan-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.hewan-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.hewan-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hewan-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/*.hewan-struktur {
+  margin-top: 40px;
+}
+
+.hewan-struktur h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.hewan-struktur h3 {
+  margin-top: 20px;
+  color: #0056b3;
+}
+
+.hewan-struktur p {
+  line-height: 1.6;
+} */
+
+/* .hewan-struktur {
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #f4f4f9 50%, #dff1ff 100%);
+} */
+
+
+
+.membran-text {
+  flex: 1;
+}
+
+.membran-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.membran-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.membran-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.membran-img img {
+  max-width: 80%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membran-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sitoplasma-text {
+  flex: 1;
+}
+
+.sitoplasma-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.sitoplasma-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.sitoplasma-img img {
+  max-width: 80%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sitoplasma-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.re-text {
+  flex: 1;
+}
+
+.re-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.re-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.re-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.re-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.replant-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.replant-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mitokondria-text {
+  flex: 1;
+}
+
+.mitokondria-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.mitokodnria-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.mitokondria-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mitokondria-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.lisosom-text {
+  flex: 1;
+}
+
+.lisosom-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.lisosom-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.lisosom-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lisosom-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.peroksisom-text {
+  flex: 1;
+}
+
+.peroksisom-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.peroksisom-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.peroksisom-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.peroksisom-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.ribosom-text {
+  flex: 1;
+}
+
+.ribosom-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.ribosom-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.ribosom-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ribosom-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sentriol-text {
+  flex: 1;
+}
+
+.sentriol-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.sentriol-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.sentriol-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sentriol-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mikrotubulus-text {
+  flex: 1;
+}
+
+.mikrotubulus-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.mikrotubulus-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.mikrotubulus-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mikrotubulus-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.badangolgi-text {
+  flex: 1;
+}
+
+.badangolgi-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.badangolgi-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.badangolgi-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.badangolgi-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nukleus-text {
+  flex: 1;
+}
+
+.nukleus-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nukleus-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.nukleus-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nukleus-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nukleolus h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nukleolus p {
+  line-height: 1.7;
+  text-align: justify;
+}
+.nukleoplasma h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nukleoplasma p {
+  line-height: 1.7;
+  text-align: justify;
+}
+.membraninti h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.membraninti p {
+  line-height: 1.7;
+  text-align: justify;
+}
+.vakuola h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.vakuola p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+
+
+
+.tumbuhan {
+  padding: 60px 20px;
+  background-color: #eef2f5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.tumbuhan-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tumbuhan-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tumbuhan-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.tumbuhan p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.tumbuhan h3 {
+  margin-top: 20px;
+  color: #0056b3;
+} 
+
+.membrantumbuhan-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.membrantumbuhan-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.kloroplas-text {
+  flex: 1;
+}
+
+.kloroplas-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.kloroplas-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.kloroplas-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kloroplas-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dinding-text {
+  flex: 1;
+}
+
+.dinding-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.dinding-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.dinding-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dinding-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.vakuola-text {
+  flex: 1;
+}
+
+.vakuola-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.vakuola-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.vakuola-img img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vakuola-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.lisosom-text {
+  flex: 1;
+}
+
+.lisosom-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.lisosom-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.lisosom-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lisosom-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mikrofilamen-text {
+  flex: 1;
+}
+
+.mikrofilamen-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.mikrofilamen-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.mikrofilamen-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mikrofilamen-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.membrannukleus-text {
+  flex: 1;
+}
+
+.membrannukleus-text h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #007bff;
+  border-bottom: 3px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.membrannukleus-text p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.membrannukleus-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membrannukleus-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: rgb(27, 58, 104);
+}
+
+.contact {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.socialicons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialicons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: rgb(27, 58, 104);
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom a {
+  color: white;
+}
+/* Responsive styling */
+@media (max-width: 768px) {
+  .hewan,
+  .tumbuhan {
+    flex-direction: column;
+  }
+  .carousel-inner img {
+    height: 300px;
+  }
+}
